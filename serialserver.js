@@ -101,7 +101,7 @@ parser.on('data', data =>{
 // parser.on('data', console.log)
 
 app.get('/', function(req, res) {
-	res.send('Hello world');
+	res.send('Your Server is WORKING FINE! but your Serial Communication with the Device no, plase check conection and documentation to fix this');
 	sport.write('hello world\n', (err) => {
 		if (err) {
 		  return console.log('Error on write: ', err.message);
